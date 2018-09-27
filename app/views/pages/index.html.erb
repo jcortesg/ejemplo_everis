@@ -1,4 +1,8 @@
+<%- @users.each do |u| %>
+  <%= u.email %>
+  <hr>
+<% end %>
+<%= render 'desc' %>
 <%= render 'hero' %>
-
 <h1>Hola Mundo!!!</h1>
 <%= link_to 'About', about_path() %>
